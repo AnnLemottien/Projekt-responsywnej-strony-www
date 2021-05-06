@@ -1,14 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Strony www - portfolio</title>
-        <meta name="description" content="Cześć, jestem Bartek. Robie strony internetowe do czasu do czasu.">
+        <meta charset="utf-8"> 
+        <meta name="description" content="Cześć, jestem Ania. Robie strony internetowe do czasu do czasu.">
         <meta name="keywords" content="strony www, strony internetowe, sklepy internetowe, www katowice, strony www katowice">
         <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/simple-slider.css">
         <script src="https://kit.fontawesome.com/18249e22ff.js" crossorigin="anonymous"></script>
+        <title>Strony www - portfolio</title>
     </head>
     <body>
         <header>
@@ -18,46 +19,65 @@
                 </div>
                 <nav>
                     <div class="mobile-menu">
-                    <a href="#" class="mobile-menu-icon">
-                        <i class="fas fa-bars"></i>
-                    </a>
-                    <div class="mobile-menu-items">
-                        <a href="#">Home</a>    
-                        <a href="#o-mnie">O mnie</a>
-                        <a href="#oferta">Oferta</a>
-                        <a href="#portfolio">Portfolio</a>
-                        <a href="#kontakt">Kontakt</a>
-
+                        <a class="mobile-menu-icon">
+                            <i class="fas fa-bars"></i>
+                        </a>                       
+                        <div class="mobile-menu-items">
+                            <a class="mobile-menu-item" href="#">Home</a>
+                            <a class="mobile-menu-item" href="#o-mnie">O mnie</a>
+                            <a class="mobile-menu-item" href="#oferta">Oferta</a>
+                            <a class="mobile-menu-item" href="#portfolio">Portfolio</a>
+                            <a class="mobile-menu-item" href="#kontakt">Kontakt</a>
+                        </div>
                     </div>
-                    <!--tutaj bedą elementy menu-->
-                    </div>
-                    <a href="#" class="menu-item">Home</a>   
+                    <a href="#" class="menu-item">Home</a>
                     <a href="#o-mnie" class="menu-item">O mnie</a>
                     <a href="#oferta" class="menu-item">Oferta</a>
                     <a href="#portfolio" class="menu-item">Portfolio</a>
-                    <a href="#kontakt" class="menu-item">Kontakt</a>
-                    
-                    <a href="https://www.facebook.com" target="_blank" class="fb"><i class="fab fa-facebook"></i></a>   
+                    <a href="#kontakt" class="menu-item">Kontakt</a>                   
+                    <a href="https://www.facebook.com" target="_blank" class="fb"><i class="fab fa-facebook"></i></a>
                 </nav>
             </div>
         </header>
         <section id="home">
-            <div class="slider-content">
-                <h1>
-                    Strony www,<br>
-                    Identyfikacja wizualna,<br>
-                    Pozycjonowanie stron internetowych.
-                </h1>
-                <a class="btn-standard" href="#">Sprawdź naszą ofertę!</a>
+
+            <div class="slider">
+                <div class="slider-content">             
+                    <!-- SLIDE - 1 -->
+                    <div id="slide-1" class="item">
+                        <div class="slide-content">
+                            <h1>
+                                Strony www<br>
+                            </h1>
+                           
+                        </div>
+                    </div>
+                    <!-- SLIDE - 2 -->
+                    <div id="slide-2" class="item">
+                        <div class="slide-content">
+                            <h1>
+                                Identyfikacja wizualna<br>
+                            </h1>
+                        </div>
+                    </div>
+                    <!-- SLIDE - 3 -->
+                    <div id="slide-3" class="item">
+                        <div class="slide-content">
+                            <h1>
+                                Pozycjonowanie stron internetowych
+                            </h1>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="o-mnie">
-            <div class="container">           
+            <div class="container">
                 <div class="row">
                     <div class="col-2">
                         <h2>O mnie</h2>
                         <div class="mobile-visible top-50px">
-                            <img src="./imgs/o-mnie.jpg" alt="zdjęcie biura">  
+                        <img src="./imgs/o-mnie.jpg" alt="zdjęcie biura">
                         </div>
                         <div class="text-content">
                             <p>
@@ -79,12 +99,12 @@
                 </div>
             </div>
         </section>
-        <section class="separator">                             
+        <section class="separator">
             <div class="container">
                 <div class="row">
                     <div class="col-1 text-center">
-                        <h3>Uwierz, że możesz a już będziesz w połowie drogi.</h3>
-                        <p>- Theodore Roosevelt -</p>
+                        <h3>Moje ulubione rzeczy w życiu nie kosztują żadnych pieniędzy. To naprawdę jasne, że najcenniejszym zasobem, jaki wszyscy mamy, jest czas.</h3>
+                        <p>- Steve Jobs</p>
                     </div>
                 </div>
             </div>
@@ -147,21 +167,21 @@
                     </div>
                 </div>
                 <div class="row top-50px">
-                    <div class="col-3">
+                    <div class="col-3 portfolio-item">
                         <img src="./imgs/projekt-1.jpg" alt="Projekt Pierwszy">
                         <h3>Route 66</h3>
                         <p>
                             Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. 
                         </p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 portfolio-item">
                         <img src="./imgs/projekt-2.jpg" alt="Projekt Drugi">
                         <h3>Projekt 2</h3>
                         <p>
                             Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. 
                         </p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 portfolio-item">
                         <img src="./imgs/projekt-3.jpg" alt="Projekt Trzeci">
                         <h3>Raz dwa trzy</h3>
                         <p>
@@ -170,21 +190,21 @@
                     </div>
                 </div>
                 <div class="row top-50px">
-                    <div class="col-3">
+                    <div class="col-3 portfolio-item">
                         <img src="./imgs/projekt-1.jpg" alt="Projekt Pierwszy">
                         <h3>Route 66</h3>
                         <p>
                             Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. 
                         </p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 portfolio-item">
                         <img src="./imgs/projekt-2.jpg" alt="Projekt Drugi">
                         <h3>Projekt 2</h3>
                         <p>
                             Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. 
                         </p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 portfolio-item">
                         <img src="./imgs/projekt-3.jpg" alt="Projekt Trzeci">
                         <h3>Raz dwa trzy</h3>
                         <p>
@@ -198,8 +218,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-1 text-center">
-                        <h3>Cel jest to marzenie z datą wykonania.</h3>
-                        <p>- Napoleon Hill -</p>
+                        <h3>Nie można po prostu zapytać klientów, czego chcą i postarać się im to dać. Zanim zaczniesz to produkować, będą chcieli czegoś innego.</h3>
+                        <p>- Steve Jobs</p>
                     </div>
                 </div>
             </div>
@@ -214,22 +234,22 @@
                 <div class="row">
                     <div class="col-3">
                         <p>
-                            <strong>Firma X</strong><br>
-                            ul. Polna 123<br>
+                            <strong>Firma XYZ</strong><br>
+                            ul. Drogowa 123<br>
                             41-234 Miejscowość<br>
                             NIP: 123 456 7890
                         </p>
                     </div>
                     <div class="col-3">
-                        <p>
+                        <p id="contact">
                             <br>
-                            <a href="tel: 123 456 789">tel: 123 456 789</a><br>
-                            <a href="mailto:abcdef@gmail.com">e-mail: abcdef@gmail.com</a><br>
+                            <a href="tel: 123 456 789">tel. 123 456 789</a><br>
+                            <a href="mailto:firmaxyz@gmail.com">e-mail: firmaxyz@gmail.com</a><br>
                         </p>
                     </div>
                 </div>
             </div>
-            <iframe class="top-50px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2550.498745442797!2d19.021810015939078!3d50.263945508666495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716ce3a0945a981%3A0x90294e7a44c09635!2srondo%20Zi%C4%99tka%2C%2040-121%20Katowice!5e0!3m2!1spl!2spl!4v1616151381410!5m2!1spl!2spl" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="top-50px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81701.92355459533!2d18.937153328994064!3d50.21376120199417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716ce2336a1ccd1%3A0xb9af2a350559fabb!2sKatowice!5e0!3m2!1spl!2spl!4v1620287669300!5m2!1spl!2spl" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </section>
         <footer>
             <div class="container">
@@ -243,6 +263,9 @@
                 </div>
             </div>
         </footer>
-        <script src="./JS/mobile-nav.js"></script>
+
+        <!-- JS -->
+        <script src="./js/mobile-nav.js"></script>
+        <script src="./js/simple-slider.js"></script>
     </body>
 </html>
