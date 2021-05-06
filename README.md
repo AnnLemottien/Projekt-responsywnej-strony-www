@@ -5,14 +5,13 @@
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Status](#status)
-* [Contact](#contact)
 
 ## General info
 This website design was created while improving my practical skills in front-end web development.
 It is fully responsive.
 
 ## Screenshots
-![portfolio website screenshot](./img/screenshot.jpg)
+![portfolio website screenshot](./imgs/screenshot.jpg)
 
 ## Technologies
 Project is created with:
@@ -23,5 +22,3 @@ Project is created with:
 ## Status
 Project is: _in progress_
 
-## Contact
-Created by [@AnnLemottien](https://www.linkedin.com/in/anna-drenda-aa2b921a5) - feel free to contact me!
